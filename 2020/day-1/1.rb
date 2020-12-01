@@ -15,8 +15,8 @@ end
 
 def find_product_for_three_numbers(numbers)
   for number_1 in numbers
-    break unless for number_2 in numbers
-      break unless for number_3 in numbers
+    for number_2 in numbers
+      for number_3 in numbers
         if number_1 + number_2 + number_3 == SUM_TO_FIND
           puts "Product of three numbers: #{number_1 * number_2 * number_3}"
 
