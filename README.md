@@ -13,3 +13,5 @@ From [adventofcode.com](https://adventofcode.com/):
 ## Let's chat
 
 Let's collab and talk about the solutions over at **[Twitter](https://twitter.com/jayehernandez_)**! ❄️
+
+[![HitCount](http://hits.dwyl.com/jayehernandez/advent-of-code.svg)](http://hits.dwyl.com/jayehernandez/advent-of-code)
