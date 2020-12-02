@@ -12,4 +12,4 @@ From [adventofcode.com](https://adventofcode.com/):
 
 ## Let's chat
 
-Let's collab and talk about the solutions over at **[Twitter](https://twitter.com/jaye_hernandez)**! ❄️
+Let's collab and talk about the solutions over at **[Twitter](https://twitter.com/jayehernandez_)**! ❄️
