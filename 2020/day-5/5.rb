@@ -18,7 +18,6 @@ def get_seat_number(string, starting_lower, starting_upper, lower_letter)
   return lower # or upper, they're the same by this point
 end
 
-highest = 0
 seat_ids = []
 
 @input.each do |seat|
@@ -26,14 +25,12 @@ seat_ids = []
   column = get_seat_number(seat[7..9], 0, 7, "L")
 
   seat_id = (row * 8) + column
-  puts seat if seat_id == 879
-  highest = seat_id if seat_id > highest
   seat_ids << seat_id
 end
 
-puts "Part 1: Highest seat number - #{highest}"
-
 seat_ids.sort!
+
+puts "Part 1: Highest seat number - #{seat_ids.last}"
 
 (seat_ids.first..seat_ids.last).each do |seat_id|
   puts "Part 2: Your seat number - #{seat_id}" unless seat_ids.include?(seat_id)
